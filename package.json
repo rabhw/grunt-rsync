@@ -1,19 +1,19 @@
 {
-  "name": "grunt-rsync",
+  "name": "grunt-rsync-rabhw",
   "version": "0.1.1",
   "description": "A Grunt task for accessing the file copying and syncing capabilities of the rsync command line utility. Uses the rsyncwrapper npm module for the core functionality.",
   "main": "grunt.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jedrichards/grunt-rsync.git"
+    "url": "git://github.com/rabhw/grunt-rsync.git"
   },
-  "homepage": "https://github.com/jedrichards/grunt-rsync",
-  "bugs": "https://github.com/jedrichards/grunt-rsync/issues",
+  "homepage": "https://github.com/rabhw/grunt-rsync",
+  "bugs": "https://github.com/rabhw/grunt-rsync/issues",
   "scripts": {
     "test": "grunt test"
   },
   "dependencies": {
-    "rsyncwrapper": "~0.0.11"
+    "rsyncwrapper-rabhw": "~0.0.1"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
@@ -40,8 +40,8 @@
     "exclude patterns"
   ],
   "author": {
-    "name": "Jed Richards",
-    "email": "jed@seisaku.co.uk"
+    "name": "Jed Richards (Modified by Ross Lavery)",
+    "email": "jed@seisaku.co.uk | rosslavery@gmail.com"
   },
   "license": "MIT",
   "engines": {
