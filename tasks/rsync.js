@@ -1,6 +1,6 @@
 "use strict";
 
-var rsync = require("rsyncwrapper").rsync;
+var rsync = require("rsyncwrapper-rabhw").rsync;
 
 module.exports = function (grunt) {
 
